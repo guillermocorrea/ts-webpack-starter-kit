@@ -1,0 +1,32 @@
+{
+  "name": "ts-webpack-starter-kit",
+  "version": "1.0.0",
+  "description": "Typescript - Webpack Starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "webpack-dev-server --inline --hot --progress --colors --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillermocorrea/ts-webpack-starter-kit.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "starter",
+    "kit"
+  ],
+  "author": "Luis Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillermocorrea/ts-webpack-starter-kit/issues"
+  },
+  "homepage": "https://github.com/guillermocorrea/ts-webpack-starter-kit#readme",
+  "devDependencies": {
+    "ts-loader": "^1.3.2",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
