@@ -7,6 +7,9 @@ module.exports = {
         publicPath: "/assets/",
         filename: "bundle.js"
     },
+    preLoaders: [
+        { test: /\.ts$/, loader: 'tslint' }
+    ],
     // Turn on sourcemaps
     devtool: 'source-map',
     resolve: {
